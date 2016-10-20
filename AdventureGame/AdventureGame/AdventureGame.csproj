@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6649B28D-48AC-4BBC-BB50-03F44B6822B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdventureGame</RootNamespace>
+    <AssemblyName>AdventureGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm2.Designer.cs">
+      <DependentUpon>frm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm3.Designer.cs">
+      <DependentUpon>frm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm4.Designer.cs">
+      <DependentUpon>frm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm5.Designer.cs">
+      <DependentUpon>frm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm7.Designer.cs">
+      <DependentUpon>frm7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm8.Designer.cs">
+      <DependentUpon>frm8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm9.Designer.cs">
+      <DependentUpon>frm9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2.resx">
+      <DependentUpon>frm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm3.resx">
+      <DependentUpon>frm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm4.resx">
+      <DependentUpon>frm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm5.resx">
+      <DependentUpon>frm5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm7.resx">
+      <DependentUpon>frm7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm8.resx">
+      <DependentUpon>frm8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm9.resx">
+      <DependentUpon>frm9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stardew_Valley_OST_-_Mines_Star_Lumpy_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stardewmines.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stardew_Valley_OST_-_Spring_Wild_Horseradish_Jam_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Synthesia_-_Kingdom_Hearts-_Dearly_Beloved_Kyle_La.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pok_mon_Red_Blue_Music-_Pok_mon_Gym_Theme_mp3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final_Fantasy_VII_-_Victory_Fanfare_[HQ_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aPictureForBrosius.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
